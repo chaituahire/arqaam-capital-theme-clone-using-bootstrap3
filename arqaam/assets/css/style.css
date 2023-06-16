@@ -1,0 +1,363 @@
+html{
+    padding: 50px;
+}
+body{ 
+    font-family:Arial, Helvetica, sans-serif; font-size:12px; 
+     text-align:center;
+      line-height:150%; 
+      color:#55626b;
+      background-color: #f3f7fb;
+      margin-top: 10px;
+      overflow-x: hidden;
+      padding: 8px;
+}
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 8px;
+
+}
+
+.header{
+    background: #fff;
+   
+}
+
+.navbar .ac:hover{
+    background-color: #42a7dc;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color:#00427a;
+   
+}
+.logo{
+    position: relative;
+    bottom: 60px;
+}
+.c-top-nav3{
+    background: #42a7dc;
+    width: 960px;
+    font-weight: bold;
+}
+.c-top-nav3 a{
+    color: #fff;
+
+}
+.c-top-nav li{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.c-top-nav li a{
+    text-decoration: none;
+}
+.login{
+    color: #00427a;
+    font-weight: bold;
+}
+.nav .login:hover{
+    background:none;
+}
+
+.a{
+    background-color: #00427a;
+}
+
+
+.homepage{
+    margin-top: -20px;
+    padding-top: 20px;
+    border-top: 1px solid #d0dce7;
+}
+.list-group-item{
+    background-color: #69696957;
+}
+.service-ul img{
+    width: 30px;
+    margin-left: -5px;
+}
+.service-ul li a{
+    color: #06477f;
+}
+
+.c-news{
+    position: relative;
+    padding: 15px 90px 20px 20px;
+    width: 50px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 2px;
+   
+
+}
+
+.empty{
+    position: relative;
+    background-color: #fff;
+    width: 50px;
+    padding: 4px 89px 6px 65px;
+    margin-left: -177px;
+    top: 24px;
+    left: 20px;
+    height: 2px;
+    border-left: 1px solid black;
+    
+}
+.news-li{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.news-li a{
+    color: #01abe6;
+    text-decoration: none;
+}
+.news-li a:hover{
+    color: #06477f;
+}
+.h-left{
+    border: none;
+}
+.h-right-1{
+    margin-top: 20px;
+
+
+}
+.li-1{
+    margin-top: 10px;
+
+}
+.news-ul{
+ 
+    border: 1px solid dimgray;
+    margin-top: 53px;
+
+}
+
+
+.inner-box{
+    margin-top: -180px;
+}
+.mycontainer{
+    height: 300px;
+    margin-top: -76px;
+}
+/*.main-slider{
+    margin-top: -313px;
+    margin-bottom: 313px;
+}*/
+.main-slider img{
+    background-size: cover;
+}
+.h-intro{
+    color: #00335a;
+}
+
+.c-top-nav .o{
+    border-right: 1px solid #00427a;
+    border-left: 1px solid #00427a;
+    height: 5px;
+}
+
+
+.c-slider{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    background-size: cover;
+    overflow: hidden;
+    width: 996px;
+    height: 300px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 42px;
+    color:  rgb(255, 255, 255);
+}
+.c-slide{
+
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: 220px;
+    left: 60px;
+    background-color: #5259ae80;
+    padding: 10px;
+    font-size: 24px;
+    line-height: 1.75em;
+    color: white;
+}
+
+.ol{
+    position: relative;
+    top: 85px;
+    margin-left: -21px;   
+    margin-right: 5px;
+}
+.carousel-indicators li{
+    margin-top: 20px;
+    padding: 9px;
+    background: url(../images/ol.png) no-repeat;
+    list-style-type: decimal;
+    color: white;
+}
+.carousel-indicators li:hover{
+    background-color: white;
+    color: blue;
+    background: none;
+    border: 1px solid blue;
+}
+.c-style{
+    position: relative;
+    left: 498px;
+    top: -25px;
+    font-size: 12px;
+}
+  
+.c-span{
+    display: block;
+    padding: 0px;
+    display: block;
+    width: 43px;
+    text-align: center;
+    border-radius: 5px;
+    color: darkblue;
+    background: url(../images/date-bg.png) no-repeat;
+
+}
+.h-services h3{
+    color: #00335a;
+}
+
+
+.month{
+    display: block;
+    width: 30px;
+    text-align: center;
+    padding-right: 35px;
+    color: white;
+    text-align: center;
+    padding-left: 8px;
+    padding-bottom: 4px;
+}
+   .h-services ul li{
+     background: url(../images/link-img1.png) left no-repeat;
+     width: 300px;
+     padding: 10px;
+     margin-bottom: -5px;
+     text-decoration: none;
+     cursor: pointer;
+     border-radius: 5px;
+    } 
+
+     .h-services ul li a:hover{
+      
+        padding-left: 46px;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+
+
+     }
+    .h-services ul li:hover{
+         background:url(../images/link-img2.png) left no-repeat;
+         width: 300px;
+         padding: 10px;
+         margin-bottom: -5px;
+         text-decoration: none;
+         color: white;
+         cursor: pointer;
+
+
+    } 
+
+   .h-services ul li a{
+     text-align: center;
+     padding-left: 46px;
+     text-decoration: none;
+    
+    } 
+    .c-last-more{
+        padding-bottom: 9px;
+        padding-right: 5px;
+        color: #06477f;
+    }
+    .c-last-more a{
+        text-decoration: none;
+    }
+    .footer-ul{
+        left: 20px;
+        color: blue;
+
+    }
+    .footer-ul li a{
+        text-decoration: none;
+    }
+    .footer-ul .copyright{
+        position: absolute;
+        top: 20px;
+
+    }
+    .footer{
+        background-color: #f3f7fb;
+        padding-top: 2px;
+    }
+@media screen and (max-width:320px){
+    .navbar-nav .open .dropdown-menu{
+        background-color: white;
+    }
+    .nav>li{
+        height: 40px;
+        z-index: 1;
+    }
+    .ol{
+        top: 93px;
+        margin-left: 94px;   
+        margin-right: 5px;
+    }
+
+}
+@media screen and (max-width:768px){
+    body{
+        padding-left: 50px;
+
+    }
+    .c-top-nav3{
+        display: flex;
+    }
+    .c-top-nav{
+        display: flex;
+        float: right;
+    }
+        .navbar-nav .open .dropdown-menu{
+        background-color: white;
+    }
+    .nav>li{
+        height: 40px;
+        z-index: 1;
+    }
+    .ol{
+        top: 93px;
+        margin-left: 94px;   
+        margin-right: 5px;
+    }
+
+
+}
+
+
+@media screen and (max-width:1024px){
+    .ol{
+        top: 93px;
+        margin-left: 94px;   
+        margin-right: 5px;
+    }
+}
